@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='css/menu.css'/>
+  <title>Document</title>
+</head>
+<style>
+  table{
+    width:100%;
+    table-layout:fixed;
+  }
+  .table-img{
+    width:100%;
+    text-align:center;
+    margin-top:10px;
+    vertical-align: middle; /* 縦方向の中央揃え */
+    display: flex;          /* ブラウザSafari対策：画像の縦伸び防止 */
+    align-items: flex-start;  /* ブラウザSafari対策：画像の縦伸び防止 */
+  }
+  .table-text{
+    text-align: center; /* 横方向の中央揃え */
+    vertical-align: middle; /* 縦方向の中央揃え */
+    font-size: 65%;
+    overflow-wrap: break-word;
+    font-family:Arial;
+  }
+  .page-title{
+    margin-top:8%;
+    text-align: center; /* 横方向の中央揃え */
+    font-size: 120%;
+    font-family:Arial;
+  }
+  .title-img{
+   text-align: center;  /*横方向の中央揃え */
+    /*vertical-align: middle;  縦方向の中央揃え */
+  }
+  .text-begin{
+    text-align: left;
+    font-family:Arial;
+  }  
+  .text-end{
+    font-size:80%;
+    text-align: left;
+    color:blue;
+    font-family:Arial;
+  }
+</style>
+<body>
+  <nav>
+    <ul>
+    <li class=”current”><a href='index.html'>ホーム</a></li>
+    <li><a href='spotlist.html'>スポットリスト</a></li>
+    <li><a href='howtoplay.html'>遊び方</a></li>
+    <!-- <li><a href=”#”>Blog</a></li> -->
+    </ul>
+   </nav>
+  <div id="title" class="page-title"></div>
+  <div class="title-img">
+    <img src="icon/stamp_rally.png" width="20%">
+  </div>
+  <table border="1" >
+    <p id="stamps" class="text-begin"></p>  
+    <tbody>
+      <tr >
+        <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image1" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot1" class="table-text"></td></tr>
+          </table>
+         </td>
+         <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image2" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot2" class="table-text"></td></tr>
+          </table>
+         </td>
+         <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image3" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot3" class="table-text"></td></tr>
+          </table>
+         </td>
+         <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image4" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot4" class="table-text"></td></tr>
+          </table>
+         </td>
+      </tr>
+      <tr >
+        <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image5" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot5" class="table-text"></td></tr>
+          </table>
+         </td>
+        <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image6" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot6" class="table-text"></td></tr>
+          </table>
+         </td>
+        <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image7" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot7" class="table-text"></td></tr>
+          </table>
+         </td>
+        <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image8" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot8" class="table-text"></td></tr>
+          </table>
+         </td>
+      </tr>
+      <tr >
+        <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image9" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot9" class="table-text"></td></tr>
+          </table>
+         </td>
+        <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image10" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot10" class="table-text"></td></tr>
+          </table>
+         </td>
+        <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image11" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot11" class="table-text"></td></tr>
+          </table>
+         </td>
+        <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image12" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot12" class="table-text"></td></tr>
+          </table>
+         </td>
+      </tr>
+      <tr >
+        <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image13" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot13" class="table-text"></td></tr>
+          </table>
+         </td>
+        <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image14" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot14" class="table-text"></td></tr>
+          </table>
+         </td>
+        <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image15" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot15" class="table-text"></td></tr>
+          </table>
+         </td>
+        <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image16" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot16" class="table-text"></td></tr>
+          </table>
+         </td>
+      </tr>
+      <tr >
+        <td>
+          <table>
+            <tr><td class="table-img"><div><img id="image17" width="60%" height="60%" ></div></td></tr>
+            <tr><td id="spot17" class="table-text"></td></tr>
+          </table>
+         </td>
+      </tr>
+    </tbody>
+  </table> 
+  <p class="text-end">※オレンジ色のみかんのスポットは訪問済みです。</p>
+  <script>
+      var area_no;
+      if(window.localStorage){
+          //エリア番号の読み取り
+　　      area_no=localStorage.getItem('area_no%');
+    　    //ローカルストレージからキー「selected-spot%地域番号」で基礎データを読み込み配列arrayに格納
+      　  key_all="all_basic_data%" + area_no;
+          //ローカルストレージの基礎データを取得→配列名arrayに格納、キーは「all_basic_data%地域番号」
+          let json=localStorage.getItem(key_all);        　
+          array=JSON.parse(json);
+          //ローカルストレージからキー「vsit_data」で基礎データを読み込み配列visit_ynに格納
+          key_visit="visit_data%" + area_no;  
+          let json_visit=localStorage.getItem(key_visit);
+          visit_yn=JSON.parse(json_visit); //[-1,-1,-1,-1,-1,-1]
+          let _count=0
+          //タイトル
+          var title_text=document.getElementById("title");
+          if(area_no==1){
+              var area_text="～紀の川流域編～"; 
+          } else if(area_no==2){ 
+              var area_text="～有田川流域編～"; 
+          } else if(area_no==3){ 
+              var area_text="～日高川流域編～"; 
+          } else if(area_no==4){ 
+              var area_text="～田辺市・西牟婁編～"; 
+          } else if(area_no==5){ 
+              var area_text="～東牟婁・新宮編～"; 
+          } else{ 
+              var area_text=""; 
+          }
+          title_text.textContent="スタンプ帳" + area_text;
+          //各スポットの表示
+          for(i=0;i<array.length;i++){
+              i1=i+1;
+              var e_spot=document.getElementById("spot" +i1);
+              e_spot.textContent=array[i].name;
+              //htmlで記述したTableの画像セルのID→同セルにe_imgというタグをつける
+              var e_img=document.getElementById("image" +i1);
+              //スポットが訪問済みか否かで、表示するスタンプを変える
+              if(visit_yn[i]>0){ 
+                  e_img.src="icon/stamp_good.png" 
+                  _count=_count+1
+              }
+              else{
+                  e_img.src="icon/stamp_ng.png"
+              }
+              //ゲットしたスポット数
+              var e_stamps=document.getElementById("stamps");
+              e_stamps.textContent='あなたがゲットしているスタンプの数は' + _count + '個です。';
+              //画像にクリックイベントを付加
+                    e_img.addEventListener('click', function(event){
+                        //クリックされた画像のファイル名を調べる
+                        const clickedElement = event.target;
+                        var str= clickedElement.id
+                        let str_search = str.indexOf('image') ;
+                        let str_text=str.substring(str_search);
+                        let str_id_no=str_text.replace("image","")
+                        spot_jamp_detail_from_stampnote(1,str_id_no,array)
+                    });
+              //スポットの名称にクリックイベントを付加
+                    e_spot.addEventListener('click', function(event){
+                        //クリックされた画像のファイル名を調べる
+                        const clickedElement = event.target;
+                        var str= clickedElement.id
+                        let str_search = str.indexOf('spot') ;
+                        let str_text=str.substring(str_search);
+                        let str_id_no=str_text.replace("spot","")
+                        spot_jamp_detail_from_stampnote(2,str_id_no,array)
+                    });          
+            }
+
+          //画像がクリックされたときに発生するイベント
+          function spot_jamp_detail_from_stampnote(flag_element,str_target,markerList){
+              let total_spot=markerList.length  
+              let k=str_target-1
+              //当該スポットのデータをウェブストレージに保存して、詳細ページに遷移
+              let s_lat=markerList[k].lat              //スポットの北緯を変数に代入
+              let s_lng=markerList[k].lng              //スポットの東経を変数に代入
+              let s_title=markerList[k].name;          //スポットの名称を変数に代入
+              let s_img=markerList[k].file;            //スポットの画像ファイル名を変数に代入
+              let s_address=markerList[k].address;        //スポットの住所を変数に代入
+              let s_address_detail=markerList[k].detail; //スポットの場所の詳細を変数に代入
+              let s_era=markerList[k].era;            //スポットの年代を変数に代入
+              let s_explanation=markerList[k].exp;    //スポットに関する説明を変数に代入
+              let s_yesno=markerList[k].yn;         //スポットの訪問の有無を変数に代入
+              let s_flag=-1 //スポットの詳細を読み込む際：チェックインのページから→s_flag=1、スタンプ帳とスポットリストのページから→s_flag=-1
+              //詳細ボタンがクリックされたときに、当該スポットのデータの一部を配列に格納
+              let spot_array=[s_lat,s_lng,s_title,s_img,s_address,s_address_detail,s_era,s_explanation,s_yesno,s_flag];
+              //ローカルストレージに「selected-spot%地域番号」のキーで選択されたスポットのデータ配列を保存
+              //配列をJSONデータに返還し、json_stringという変数に一括代入
+                key_select="selected_spot%" + area_no;
+                let json_string=JSON.stringify(spot_array);   
+                localStorage.setItem(key_select,json_string);
+              //詳細のページに遷移
+              window.location.href ='detail.html'
+            }        
+      }
+      else
+      {
+            alert('ローカルストレージは使えません');
+      }
+  </script> 
+</body>
+</html>

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='css/menu.css'/>
+  <title>Document</title>
+</head>
+<style>
+  .page-title{
+    margin-top:8%;
+    text-align: center;
+    font-family: Arial;
+  }
+  table{
+    width:100%;
+    table-layout:fixed;
+    margin-top: 10px;
+    overflow-warp:break-word;  /* 児童折り返し */
+    font-family: Arial;
+  }
+  .table-img{
+    text-align: center; /* 横方向の中央揃え */
+    vertical-align: middle; /* 縦方向の中央揃え */
+    cursor: pointer; /* オーバーハング時にカーソルを表示する */
+  }
+  .table-img-detail{
+    text-align: center; /* 横方向の中央揃え */
+    vertical-align: middle; /* 縦方向の中央揃え */
+    cursor: pointer; /* オーバーハング時にカーソルを表示する */
+  }
+  .table-text{
+    text-align: left; /* 横方向の中央揃え */
+    vertical-align: middle; /* 縦方向の中央揃え */
+    font-size: 75%;
+    width:100%
+  }
+  .table-text2{
+    text-align: center; /* 横方向の中央揃え */
+    vertical-align: middle; /* 縦方向の中央揃え */
+    font-size: 85%;
+    width:100%
+  }
+
+ </style>
+ <body>
+  <nav>
+    <ul>
+    <li class=”current”><a href='index.html'>ホーム</a></li>
+    <li><a href='stampnote.html'>スタンプ帳</a></li>
+    <li><a href='howtoplay.html'>遊び方</a></li>
+    <!-- <li><a href=”#”>Blog</a></li> -->
+    </ul>
+   </nav>
+  <div id="title" class="page-title"></div>
+  <table border="1" >
+    <tbody>
+      <!-- 1スポット目 -->
+      <tr>
+          <td rowspan="5" width="30%"><img id="image1" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title1"  class="table-text"></td>
+          <td id="number1" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address1"  class="table-text"></td>
+          <td id="get_yn1" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail1" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail1" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era1" class="table-text"></td>
+        </tr>
+        <!-- 2スポット目 -->
+        <tr>
+          <td rowspan="5" width="30%"><img id="image2" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title2"  class="table-text"></td>
+          <td id="number2" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address2"  class="table-text"></td>
+          <td id="get_yn2" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail2" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail2" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era2" class="table-text"></td>
+        </tr>
+        <!-- 3スポット目 -->
+        <tr>
+          <td rowspan="5" width="30%"><img id="image3" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title3"  class="table-text"></td>
+          <td id="number3" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address3"  class="table-text"></td>
+          <td id="get_yn3" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail3" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail3" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era3" class="table-text"></td>
+        </tr>
+        <!-- 4スポット目 -->
+        <tr>
+          <td rowspan="5" width="30%"><img id="image4" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title4"  class="table-text"></td>
+          <td id="number4" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address4"  class="table-text"></td>
+          <td id="get_yn4" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail4" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail4" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era4" class="table-text"></td>
+        </tr>
+        <!-- 5スポット目 -->
+        <tr>
+          <td rowspan="5" width="30%"><img id="image5" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title5"  class="table-text"></td>
+          <td id="number5" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address5"  class="table-text"></td>
+          <td id="get_yn5" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail5" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail5" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era5" class="table-text"></td>
+        </tr>
+        <!-- 6スポット目 -->
+        <tr>
+          <td rowspan="5" width="30%"><img id="image6" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title6"  class="table-text"></td>
+          <td id="number6" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address6"  class="table-text"></td>
+          <td id="get_yn6" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail6" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail6" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era6" class="table-text"></td>
+        </tr>
+        <!-- 7スポット目 -->
+        <tr>
+          <td rowspan="5" width="30%"><img id="image7" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title7"  class="table-text"></td>
+          <td id="number7" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address7"  class="table-text"></td>
+          <td id="get_yn7" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail7" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail7" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era7" class="table-text"></td>
+        </tr>
+        <!-- 8スポット目 -->
+        <tr>
+          <td rowspan="5" width="30%"><img id="image8" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title8"  class="table-text"></td>
+          <td id="number8" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address8"  class="table-text"></td>
+          <td id="get_yn8" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail8" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail8" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era8" class="table-text"></td>
+        </tr>
+        <!-- 9スポット目 -->
+        <tr>
+          <td rowspan="5" width="30%"><img id="image9" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title9"  class="table-text"></td>
+          <td id="number9" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address9"  class="table-text"></td>
+          <td id="get_yn9" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail9" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail9" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era9" class="table-text"></td>
+        </tr>
+        <!-- 10スポット目 -->
+        <tr>
+          <td rowspan="5" width="30%"><img id="image10" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title10"  class="table-text"></td>
+          <td id="number10" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address10"  class="table-text"></td>
+          <td id="get_yn10" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail10" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail10" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era10" class="table-text"></td>
+        </tr>
+        <!-- 11スポット目 -->
+        <tr>
+          <td rowspan="5" width="30%"><img id="image11" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title11"  class="table-text"></td>
+          <td id="number11" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address11"  class="table-text"></td>
+          <td id="get_yn11" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail11" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail11" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era11" class="table-text"></td>
+        </tr>
+        <!-- 12スポット目 -->
+        <tr>
+          <td rowspan="5" width="30%"><img id="image12" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title12"  class="table-text"></td>
+          <td id="number12" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address12"  class="table-text"></td>
+          <td id="get_yn12" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail12" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail12" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era12" class="table-text"></td>
+        </tr>
+        <!-- 13スポット目 -->
+        <tr>
+          <td rowspan="5" width="30%"><img id="image13" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title13"  class="table-text"></td>
+          <td id="number13" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address13"  class="table-text"></td>
+          <td id="get_yn13" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail13" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail13" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era13" class="table-text"></td>
+        </tr>
+        <!-- 14スポット目 -->
+        <tr>
+          <td rowspan="5" width="30%"><img id="image14" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title14"  class="table-text"></td>
+          <td id="number14" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address14"  class="table-text"></td>
+          <td id="get_yn14" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail14" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail14" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era14" class="table-text"></td>
+        </tr>
+        <!-- 15スポット目 -->
+        <tr>
+          <td rowspan="5" width="30%"><img id="image15" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title15"  class="table-text"></td>
+          <td id="number15" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address15"  class="table-text"></td>
+          <td id="get_yn15" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail15" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail15" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era15" class="table-text"></td>
+        </tr>
+        <!-- 16スポット目 -->
+        <tr>
+          <td rowspan="5" width="30%"><img id="image16" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title16"  class="table-text"></td>
+          <td id="number16" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address16"  class="table-text"></td>
+          <td id="get_yn16" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail16" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail16" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era16" class="table-text"></td>
+        </tr>
+        <!-- 17スポット目 -->
+        <tr>
+          <td rowspan="5" width="30%"><img id="image17" width="100%" class="table-img"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="title17"  class="table-text"></td>
+          <td id="number17" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address17"  class="table-text"></td>
+          <td id="get_yn17" class="table-text2"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="address_detail17" class="table-text"></td>
+          <td rowspan="2"><img id="go_detail17" width="100%" class="table-img-detail"></td>
+        </tr>
+        <tr>
+          <td colspan="5" id="era17" class="table-text"></td>
+        </tr>
+      </tbody>
+  </table>
+  <script>
+      var area_no;
+      if(window.localStorage){
+          //エリア番号の読み取り
+　　      area_no=localStorage.getItem('area_no%');
+    　    //ローカルストレージからキー「selected-spot%地域番号」で基礎データを読み込み配列arrayに格納
+      　  key_all="all_basic_data%" + area_no;
+          //ローカルストレージの基礎データを取得→配列名arrayに格納、キーは「all_basic_data%地域番号」
+          let json=localStorage.getItem(key_all);
+          let array=JSON.parse(json);
+           //ローカルストレージからキー「vsit_data」で基礎データを読み込み配列visit_ynに格納
+          key_visit="visit_data%" +area_no;
+          let json_visit=localStorage.getItem(key_visit);
+          visit_yn=JSON.parse(json_visit); //[-1,-1,-1,-1,-1,-1]
+          //タイトル
+          var title_text=document.getElementById("title");
+          if(area_no==1){
+              var area_text="～紀の川流域編～"; 
+          } else if(area_no==2){ 
+              var area_text="～有田川流域編～"; 
+          } else if(area_no==3){ 
+              var area_text="～日高川流域編～"; 
+          } else if(area_no==4){ 
+              var area_text="～田辺市・西牟婁編～"; 
+          } else if(area_no==5){ 
+              var area_text="～東牟婁・新宮編～"; 
+          } else{ 
+              var area_text=""; 
+          }
+          title_text.textContent="スポットリスト" + area_text;
+          //各スポットの表示
+          //関数spotshowの呼び出し
+          spot_show(array,visit_yn);
+        }
+      else{
+        alert('ローカルストレージは使えません');
+      }
+      //スポット一覧を表示する
+      function spot_show(array,visit_yn){
+        //ウェブページへの書き出し  
+        for(let i=0 ;i<array.length ;i++){
+          let s_number=array[i].id;
+          let s_yesno_temp=visit_yn[i];
+          if(s_yesno_temp<0){
+            s_yesno='未'
+          }else{
+            s_yesno='済'
+          }
+          let s_lat=array[i].lat              //スポットの北緯を変数に代入
+          let s_lng=array[i].lng              //スポットの東経を変数に代入
+          let s_img=array[i].file;
+          let s_title=array[i].name;
+          let s_address=array[i].address;
+          let s_address_detail=array[i].detail;
+          let s_era=array[i].era;
+          // if(i==array.length-1){
+          //   alert(s_number,s_yesno,s_img,s_title)
+          // }
+          var i1=i+1
+          var e_number=document.getElementById("number" +i1);e_number.textContent=s_number ;//スポット番号を更新      
+          var e_yesno=document.getElementById("get_yn" +i1);e_yesno.textContent=s_yesno ;//スポット番号を更新
+          if(s_yesno_temp<0){
+            e_yesno.style.backgroundColor='#ADFF2F'; //GreenYellow
+          }else{
+            e_yesno.style.backgroundColor='#FFA500'; //Orange
+          }
+          var e_img=document.getElementById("image" +i1);e_img.src='image/' + s_img ;//画像ファイルを更新
+          var e_title=document.getElementById("title" +i1);e_title.textContent="名称：" + s_title ; //名称の更新
+          var e_address=document.getElementById("address" +i1);e_address.textContent="住所：" + s_address ; //住所の更新
+          var e_address_detail=document.getElementById("address_detail" +i1);e_address_detail.textContent="場所の詳細：" + s_address_detail ; //場所の詳細の更新  
+          var e_era=document.getElementById("era" +i1);e_era.textContent="年代：" + s_era  ;//年代を更新
+          var e_detail=document.getElementById("go_detail" +i1);e_detail.src="icon/detail_icon.png" ; //詳細説明のページに遷移
+          //「詳細？」にクリックイベントを付加
+          const button_detail=document.getElementById("go_detail" +i1);
+          //スポットの画像または「詳細？」がクリックされたときに詳細ページに遷移
+          e_img.addEventListener('click', function(){spot_jamp_detail(i)});
+          button_detail.addEventListener('click', function(){spot_jamp_detail(i)});
+        function spot_jamp_detail(i){
+            let s_explanation=array[i].exp;//スポットに関する説明を変数に代入
+            let s_flag=-1 //スポットの詳細を読み込む際：チェックインのページから→s_flag=1、スタンプ帳とスポットリストのページから→s_flag=-1
+            let spot_array=[s_lat,s_lng,s_title,s_img,s_address,s_address_detail,s_era,s_explanation,s_yesno,s_flag];//詳細ボタンがクリックされたときに、当該スポットのデータの一部を配列に格納
+            //ローカルストレージに「spot-selected」のキーで選択されたスポットのデータ配列を保存
+            if(window.localStorage){
+              //配列をJSONデータに返還し、json_stringという変数に一括代入
+            　key_select="selected_spot%" + area_no;
+              let json_string=JSON.stringify(spot_array);   
+              localStorage.setItem(key_select,json_string)
+            }
+            else
+            {
+              alert('ローカルストレージは使えません');
+            }
+            //詳細のページに遷移
+            window.location.href ='detail.html'} ;
+        }
+      }
+  </script>
+</body>
+</html>

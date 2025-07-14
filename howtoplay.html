@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to play</title>
+    <link rel='stylesheet' href='css/menu.css'/>
+  </head>
+    <style type="text/css">
+      .title-play{
+        margin-top: 30px; 
+        border: 1px dotted yellow;  
+        background-color:yellow; 
+        color: black;
+        text-align: center;
+        line-height:5vh;
+        font-size:150%;
+        font-family: Arial;
+      }
+      .title-apply{
+        margin-top: 30px; 
+        border: 1px dotted yellow;  
+        background-color:yellow; 
+        color: black;
+        text-align: center;
+        line-height:5vh;
+        font-size:150%;
+        font-family: Arial;
+      }
+      .img-apply{
+        margin-top: 10px;
+        text-align:center;
+        margin-bottom:-25px;
+      }         /* 応募方法の画像 */
+      .img-play{
+        margin-top: 10px;
+        text-align:center;
+      }         /* 遊び方の画像 */
+      .img-checkin{
+        text-align:center;
+      }         /* チェックイン可能ボタンの画像 */
+      .title-reset{
+        margin-top: 30px; 
+        background-color:gray; 
+        color: white;
+        text-align: center;
+        line-height:5vh;
+        font-size:150%;
+        font-family: Arial;
+      }
+       .text-explain{
+        font-family: Arial;
+      }
+      .title-reference{
+        margin-top: 30px; 
+        border: 1px dotted green;  
+        background-color:green; 
+        color: white;
+        text-align: center;
+        line-height:5vh;
+        font-size:100%;
+        font-family: Arial;
+      }
+       .text-reference{
+        font-family: Arial;
+        font-size:80%;
+      }
+       .text-reference2{
+        font-family: Arial;
+        font-size:60%;
+        overflow-wrap: anywhere;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+      <li class=”current”><a href='index.html'>ホーム</a></li>
+      <li><a href='stampnote.html'>スタンプ帳</a></li>
+      <li><a href='spotlist.html'>スポットリスト</a></li>
+      <!-- <li><a href=”#”>Blog</a></li> -->
+      </ul>
+     </nav>
+      <div class="title-play">使　い　方</div>
+      <p class="img-play">
+        <img src="icon/sekihi-stamp.png" width="50%" alt="タイトル画像" >
+      </p>
+      <p class="text-explain">
+      　地図上のグリーンリーフ（緑の葉）は災害伝承碑などの場所を表しています。<br>　いずれかをタップ（クリック）すると、災害伝承碑などの写真と名称が表示されます。また、現在地からの距離も表示されます。近くまで行けば、チェックインが可能となり、以下のような表示が出てきます。
+      </p>
+      <p class="img-checkin">
+         <img src="icon/checkintap.png"  width="75%" alt="チェックインタップの画像" >
+      </p>
+      <p class="text-explain">
+      これをタップ（クリック）するとデジタルスタンプがゲットできます。
+      ゲットしているデジタルスタンプは、スタンプ帳で確認できます。<br><br>
+      ※注意：<br>
+      1)スマートフォンの位置情報へのアクセスを可能にしておいてください。<br>
+      2)使用するスマートフォンやブラウザをかえると、過去にゲットしたデジタルスタンプは反映されません。<br>
+      3)ブラウザはGoogle Chrome, Apple Safari, Microsoft Edge, Mozilla Firefoxで動作確認をしていますが、ブラウザのバージョンによっては動作しない可能性もあります。
+      </p>
+      <div class="title-apply">応募の方法</div>
+      <p class="img-apply">
+        <img src="icon/apply.png" width="30%" alt="応募方法" >
+      <p class="text-explain">
+      　スタンプを〇個以上ゲットした方には、先着〇〇名様に記念品を差し上げます。<br>　和歌山県土砂災害啓発センターを訪問して、スマートフォンのスタンプ帳を提示してください。
+
+      </p>
+      <div class="title-reset">リセット（管理者用）</div>
+      <p class="text-explain">
+      　すでにゲットしているすべてのスタンプを破棄してリセットします。一旦リセットすると復元はできません。
+      </p>
+      <form>
+        <label for="textForm" class="text-explain">パスワード: </label>
+        <input type="text" id="textForm" class="text-explain">
+        <button id="button" class="text-explain">実行</button>
+      </form>
+      <div class="title-reference">参考文献など</div>
+      <p class="text-reference">
+      　災害伝承碑の説明文は、以下の文献などを引用または参考にしています。それぞれの災害伝承碑の説明文中に文献番号を示しており、それらは以下の文献と対応しています。<br>
+      </p>
+      <p class="text-reference2">
+        1) 那智勝浦町：紀伊半島大水害ー平成28年9月 町を襲った台風12号の記録ー。<br>
+        2) 国土交通省：［検証］2001年の自然災害、URL:https://www.mlit.go.jp/ river/pamphlet_jirei/bousai/saigai/2001/pdf/page014_015.pdf<br>
+        3) 和歌山県：和歌山県災害史。<br>
+        4) 国土交通省近畿地方整備局大規模土砂災害対策技術センター：60 年毎（1889 年, 1953 年, 2011 年）に繰り返される紀伊半島の歴史的大規模土砂災害、<br>
+        URL:https://www.kkr.mlit.go.jp/kiisankei/center/img/saigaishi.pdf。<br>
+        5) 国土交通省：十津川大水害について、URL:https://www.kkr.mlit.go.jp/ kinan/river/kumano_kondan/PDF/information_panel/19. pdf。<br>
+        6) 国土交通省国土地理院：自然災害伝承碑、URL:https://www.gsi.go.jp/ bousaichiri/denshouhi.html。<br>
+        7) 和歌山測候所：紀州災異誌。<br>
+        8) 古座川町：二級河川古座川浸水実績図〔平成23年台風13号〕、URL:http://www.town.kozagawa.wakayama.jp/pdf/sinsuijisseki.pdf。<br>
+        9) 十津川村：大水害の記録十津川村ー平成23年台風23号「紀伊半島大水害」ー。<br>
+        10)新宮市：紀伊半島大水害 豪雨ー平成23年台風12号 発生から100日 新宮市の記録～未来につなぐメッセージ～ー。<br>
+      </p>
+      
+<script>
+    // //以下は、ローカルストレージをすべてクリアするための管理用コード
+    // // ボタンの要素を取得
+    var button = document.getElementById("button");
+     // ボタンをクリックした時の処理
+    button.addEventListener("click", function(e) {
+            e.preventDefault();
+            var pass = document.getElementById("textForm").value;
+            //alert(pass);
+            if(pass=='12345'){
+                //alert('パスはOK');
+                var result=confirm('復元はできません。\n本当にスタンプ帳などをりセットしてもよろしいですか？');
+                if(result){
+                    if(window.localStorage){
+                        //エリア番号の読み取り
+                        let area_no=localStorage.getItem('area_no%');
+                        //alert(area_no);
+            		    //現在の訪問記録の読み込み
+                         let key_visit='visit_data%' + area_no;
+                         //alert(key_visit);
+                         let json_visit=localStorage.getItem(key_visit);
+                         visit_yn_temp=JSON.parse(json_visit);
+                         //alert(visit_yn_temp.length);
+                         //「visit_data」というキーでローカルストレージが使われている場合は何もしない。使われていない場合は、すべてのスポットを未訪問として、各スポットへの訪問を無（初期設定）としてJSONデータに変換し、vist_ysという配列に格納する。
+            		     let visit_yn=[];
+                         for(i=0; i < visit_yn_temp.length; i++){
+            			   visit_yn.push(-1);
+            		      }
+            		      //ローカルストレージに書き込み
+            		      let json_string_visit=JSON.stringify(visit_yn); 
+            		      localStorage.setItem(key_visit,json_string_visit);
+            		  }
+                        //ローカルストレージ訪問記録のクリア
+                        //localStorage.removeItem('visit_data%'+area_no);
+                        alert('スタンプ帳のスタンプはすべて破棄されました。');
+                    //}
+                }
+                else{
+                    alert('この処理はキャンセルされましt。');
+                }
+                var pwd = document.getElementById("textForm")
+                pwd.value="";
+            }else{
+                alert('パスワードが間違っています。');
+             }
+    });
+ 
+    // var button = document.getElementById('button');
+    // // ボタンをクリックした時の処理
+    // button.addEventListener('click', function(e) {
+    //     e.preventDefault();
+    //     // 入力フォームの値を取得
+    //             var pass = document.getElementById('resultForm').value;
+    //             resaultForm.value=pass;        
+    //     //alert(pass);
+    //     document.getElementById("pwdreset").value=""
+            
+    // }); 
+</script>
+</html>
