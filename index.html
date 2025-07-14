@@ -44,7 +44,7 @@
     <p id="title-explain" class="explain">
     </p>
     <p class="img-tomap">
-       <img id="selectarea" onclick="jump_to_seletarea()" width="20%" alt="地域選択画面へ" >
+       <img id="selectarea" onclick="jump_to_seletarea()" width="15%" alt="地域選択画面へ" >
     </p>
 	
     <script>
@@ -55,10 +55,10 @@
 		alert('flag_area:' + flag_area);
 		var selection=document.getElementById("selectarea");	
 	    	selection.src="icon/select-area.png";
-		// function jump_to_selectarea(){
-		// 　　	var url= "https://tsucchi-git.github.io/stamprally10” 
-	 //            	window.location.href=url;
-	 //          }
+		function jump_to_selectarea(){
+		　　	var url= "https://tsucchi-git.github.io/stamprally10” 
+	            	window.location.href=url;
+	          }
         }
 	//alert('_flag=' + flag_area);
         var explain=document.getElementById("title-explain");
