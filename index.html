@@ -53,7 +53,8 @@
     	var params = (new URL(document.location)).searchParams;
     	var flag_area=params.get('_flag');
 	//地域選択からのページの呼び出しであれば、孫ページ戻るボタンを表示する
-        if(flag_area==100){
+        //if(flag_area==100){
+        if(_flag==100){
 		var selection=document.getElementById("selectarea");	
 	    	selection.src="icon/select-area.png";
         	selection.addEventListener('click', function() {
