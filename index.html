@@ -56,6 +56,12 @@ rn<!DOCTYPE html>
 		var selection=document.getElementById("selectarea");	
 	    	selection.src="icon/select-area.png";
         }
+	    //地域戦t額ボタンがクリックされたときの処理
+	    function jump_to_selectarea(){
+		//var url_return= "https://tsucchi-git.github.io/stamprally10”; 
+			alert('OK');
+		window.location.href="https://tsucchi-git.github.io/stamprally10”;
+	  }
 	//alert('_flag=' + flag_area);
         var explain=document.getElementById("title-explain");
         explain.textContent="グリーンリーフは、災害伝承碑などの場所を表しています。訪問・チェックインするとオレンジ色に変わります。いずれかをタップすると、災害伝承碑などの写真、名称、住所とともに、現在の場所からの距離が表示されます。一定の距離まで近づくと、チェックイン可能になりデジタルスタンプがゲットできます。ぜひ訪問してみてください。";
@@ -240,12 +246,6 @@ rn<!DOCTYPE html>
 		      // 地図をBoundsにフィットさせる
 		      mymap.fitBounds(bounds);
 		  }
-		    //地域戦t額ボタンがクリックされたときの処理
-	  //           function jump_to_selectarea(){
-			// //var url_return= "https://tsucchi-git.github.io/stamprally10”; 
-			// 	alert('OK');
-			// window.location.href="https://tsucchi-git.github.io/stamprally10”;
-	  //         }
      })
 
  </script>
