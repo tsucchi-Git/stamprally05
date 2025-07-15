@@ -43,14 +43,15 @@ rn<!DOCTYPE html>
     <div id="mapid_main"></div>  <!-- 地図のIDを設定 -->
     <p id="title-explain" class="explain">
     </p>
-    <p class="img-tomap">
+    <p class="img-select-area">
        <img id="selectarea" width="15%" alt="地域選択画面へ" >
     </p>
 	
     <script>
-	//このページのURLに付加されたパラメータの値を取得    
+	//このページのURLに付加されたパラメータの値を取得（地域選択からのページの呼び出しであれば、_flag=100)    
     	var params = (new URL(document.location)).searchParams;
     	var flag_area=params.get('_flag');
+	//地域選択からのページの呼び出しであれば、孫ページ戻るボタンを表示する
         if(flag_area==100){
 		var selection=document.getElementById("selectarea");	
 	    	selection.src="icon/select-area.png";
