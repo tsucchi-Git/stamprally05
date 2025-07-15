@@ -9,7 +9,7 @@ rn<!DOCTYPE html>
     <style type="text/css">
       #mapid_main { height: 60vh; margin-top:0px; width: 100%}  /* マップのウィンドウサイズを指定 */
       .resizeimage img{
-        margin-top: 3px;
+        margin-top: -13px;
  	margin-bottom:-15px;  /*タイトルバナーと地図タイルとの間隔（隙間）を調整 */
         width:100%;
         }         /* タイトル画像の横幅をウィンドウサイズにする */
@@ -41,11 +41,10 @@ rn<!DOCTYPE html>
       <img src="icon/title.jpg" alt="タイトル画像">
     </p>
     <div id="mapid_main"></div>  <!-- 地図のIDを設定 -->
-    <p id="title-explain" class="explain">
-    </p>
     <p class="img-select-area">
        <img id="selectarea" width="15%" alt="地域選択画面へ" >
     </p>
+    <p id="title-explain" class="explain"></p>
 	
     <script>
 	//このページのURLに付加されたパラメータの値を取得（地域選択からのページの呼び出しであれば、_flag=100)    
