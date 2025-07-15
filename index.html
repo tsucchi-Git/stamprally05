@@ -47,19 +47,15 @@
     <p id="title-explain" class="explain"></p>
 	
     <script>
-	let _flag = sessionStorage.getItem('flag_area');
-	    alert('セッションストレージ' + _flag);
-	//このページのURLに付加されたパラメータの値を取得（地域選択からのページの呼び出しであれば、_flag=100)    
-    	var params = (new URL(document.location)).searchParams;
-    	var flag_area=params.get('_flag');
-	//地域選択からのページの呼び出しであれば、孫ページ戻るボタンを表示する
-        //if(flag_area==100){
+	let _flag = sessionStorage.getItem('flag_area'); //セッションストレージからキーflag_areaで保存されている値の取得
+	var selection=document.getElementById("selectarea");	
         if(_flag==100){
-		var selection=document.getElementById("selectarea");	
 	    	selection.src="icon/select-area.png";
         	selection.addEventListener('click', function() {
 			location.href='https://tsucchi-git.github.io/stamprally10/index.html' ;
 		});
+	}else{
+	    	selection.style.display="none";
 	}
         var explain=document.getElementById("title-explain");
         explain.textContent="グリーンリーフは、災害伝承碑などの場所を表しています。訪問・チェックインするとオレンジ色に変わります。いずれかをタップすると、災害伝承碑などの写真、名称、住所とともに、現在の場所からの距離が表示されます。一定の距離まで近づくと、チェックイン可能になりデジタルスタンプがゲットできます。ぜひ訪問してみてください。";
