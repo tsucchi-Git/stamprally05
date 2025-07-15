@@ -47,6 +47,8 @@
     <p id="title-explain" class="explain"></p>
 	
     <script>
+	let _flag = sessionStorage.getItem('flag_area');
+	    alert('セッションストレージ' + _flag);
 	//このページのURLに付加されたパラメータの値を取得（地域選択からのページの呼び出しであれば、_flag=100)    
     	var params = (new URL(document.location)).searchParams;
     	var flag_area=params.get('_flag');
