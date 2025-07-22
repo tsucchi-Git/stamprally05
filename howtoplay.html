@@ -159,7 +159,7 @@
                          //「visit_data」というキーでローカルストレージが使われている場合は何もしない。使われていない場合は、すべてのスポットを未訪問として、各スポットへの訪問を無（初期設定）としてJSONデータに変換し、vist_ysという配列に格納する。
             		     let visit_yn=[];
                          for(i=0; i < visit_yn_temp.length; i++){
-            			   visit_yn.push(-1);
+            			   visit_yn[i]=-1;
             		      }
             		      //ローカルストレージに書き込み
             		      let json_string_visit=JSON.stringify(visit_yn); 
